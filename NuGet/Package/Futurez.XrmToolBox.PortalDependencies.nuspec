@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>Futurez.XrmToolBox.PortalDependencies</id>
-		<version>1.2020.5.9</version>
+		<version>1.2023.7.1</version>
 		<title>Portal Dependencies Checker</title>
 		<authors>jamesnovak</authors>
 		<owners>jamesnovak</owners>
@@ -21,12 +21,12 @@
 		<copyright>Copyright © Futurez Consulting 2020</copyright>
 		<tags>XrmToolBox Power Apps Portal Dependencies Viewer</tags>
 		<dependencies>
-			<dependency id="XrmToolBox" version="1.2020.2.37" />
+			<dependency id="XrmToolBox" version="1.2023.6.65" />
 		</dependencies>
 	</metadata>
 	<files>
 		<file src="images\futurez.png" target="images\" />
-		<file src="lib\net47\Plugins\Futurez.XrmToolBox.PortalDependencies.dll" target="lib\net47\Plugins" />
-		<file src="lib\net47\Plugins\Futurez.XrmToolBox.PortalDependencies\xrmtb.XrmToolBox.Controls.dll" target="lib\net47\Plugins\Futurez.XrmToolBox.PortalDependencies" />
+		<file src="lib\net48\Plugins\Futurez.XrmToolBox.PortalDependencies.dll" target="lib\net48\Plugins" />
+		<file src="lib\net48\Plugins\Futurez.XrmToolBox.PortalDependencies\xrmtb.XrmToolBox.Controls.dll" target="lib\net48\Plugins\Futurez.XrmToolBox.PortalDependencies" />
 	</files>
 </package>
